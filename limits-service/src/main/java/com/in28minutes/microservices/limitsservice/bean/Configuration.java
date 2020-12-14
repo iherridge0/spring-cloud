@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.limitsservice;
+package com.in28minutes.microservices.limitsservice.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
