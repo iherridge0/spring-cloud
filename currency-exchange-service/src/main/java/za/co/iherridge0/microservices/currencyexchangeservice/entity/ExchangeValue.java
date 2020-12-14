@@ -23,6 +23,12 @@ public class ExchangeValue {
 
 	}
 
+	public ExchangeValue(String from, String to) {
+		super();
+		this.from = from;
+		this.to = to;
+	}
+
 	public ExchangeValue(Long id, String from, String to, BigDecimal conversionMultiple) {
 		super();
 		this.id = id;
