@@ -1,4 +1,4 @@
-package za.co.iherridge0.microservices.currencyconversionservice.resource.entity;
+package za.co.iherridge0.microservices.currencyconversionservice.entity;
 
 import java.math.BigDecimal;
 
