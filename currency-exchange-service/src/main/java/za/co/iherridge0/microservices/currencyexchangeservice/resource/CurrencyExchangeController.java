@@ -1,4 +1,4 @@
-package za.co.iherridge0.microservices.currencyexchangeservice;
+package za.co.iherridge0.microservices.currencyexchangeservice.resource;
 
 import java.math.BigDecimal;
 
