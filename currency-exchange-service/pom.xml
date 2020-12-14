@@ -8,10 +8,10 @@
 		<version>2.3.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.in28minutes.microservices</groupId>
-	<artifactId>limits-service</artifactId>
+	<groupId>za.co.iherridge0.microservices</groupId>
+	<artifactId>currency-exchange-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>limits-service</name>
+	<name>currency-exchange-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
