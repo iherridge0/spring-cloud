@@ -19,7 +19,7 @@ public class CurrencyCalculationController {
 	@Autowired
 	CurrencyExchangeServiceProxy proxy;
 
-	@GetMapping("/currency-converter/from/{from}/to/{to}/{quantity}")
+	@GetMapping("/currency-converter/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversion retrieveExchangeValue(@PathVariable String from, @PathVariable String to,
 			@PathVariable BigDecimal quantity) {
 
@@ -36,7 +36,14 @@ public class CurrencyCalculationController {
 				quantity.multiply(response.getConversionMultiple()), response.getPort());
 	}
 
-	@GetMapping("/currency-converter-feign/from/{from}/to/{to}/{quantity}")
+	/**
+	 * RECOMMENDED APPROACH
+	 * @param from
+	 * @param to
+	 * @param quantity
+	 * @return
+	 */
+	@GetMapping("/currency-converter-feign/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversion retrieveExchangeValueFeign(@PathVariable String from, @PathVariable String to,
 			@PathVariable BigDecimal quantity) {
 
